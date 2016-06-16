@@ -1,0 +1,99 @@
+@import "compass";
+
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+
+
+
+
+//We don't want to have the overhead of bundler and co. so we import
+//breakpoint, singularity, toolkit etc. manually, using globbing here.
+//ext_sass_libs contains external sass libraries
+//(copied over from /var/lib/gems/2.3.0/gems)
+@import "../ext_sass_libs/**/*";
+
+
+
+// Import variables, abstractions, base styles and components.
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0em;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+    padding: 1em;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote {
+    &::before, &::after {
+        content: '';
+        content: none;
+    }
+}
+
+q {
+    &::before, &::after {
+        content: '';
+        content: none;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color: white;
+}
+
+.block__title {
+    padding: 0.5em 0em;
+    color: white;
+}
+
+.block__content {
+    color: white;
+}
+
+.menu {
+    padding: 0em 1em;
+}

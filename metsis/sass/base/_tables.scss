@@ -1,0 +1,18 @@
+table {
+    border-spacing: 2px;
+    border-collapse: separate;
+    background: $sios-frame-border;
+}
+
+table td, table th
+{
+    padding: 0.2em;
+}
+
+tr.odd {
+    background-color: $sios-frame-border;
+}
+
+tr.even, tr.odd {
+    background-color: $sios-dark-blue;
+}

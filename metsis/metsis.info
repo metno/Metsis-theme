@@ -1,0 +1,46 @@
+name = metsis
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/metsis.reset.css
+stylesheets[all][] = css/metsis.styles.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/metsis.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[intranet] = Intranet
+regions[search] = Search
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[siscontent] = SIS Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
+regions[contactinfo] = Contact
+regions[sitemap] = Sitemap
+regions[sisleft] = SIS Left
+regions[sismiddle] = SIS Middle
+regions[sisright] = SIS Right
+regions[siosleft] = SIOS Left
+regions[siosmiddle] = SIOS Middle
+regions[siosright] = SIOS Right
+
+; ========================================
+; Layout styles
+; ========================================
+layout[row2col3][stylesheets][all][] = css/layouts/row2col3/metsis-row2col3.layout.css
+layout[row1col3][stylesheets][all][] = css/layouts/row1col3/metsis-row1col3.layout.css

@@ -1,0 +1,219 @@
+@import "compass";
+
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+
+
+
+
+//We don't want to have the overhead of bundler and co. so we import 
+//breakpoint, singularity, toolkit etc. manually, using globbing here.
+//ext_sass_libs contains external sass libraries 
+//(copied over from /var/lib/gems/2.3.0/gems)
+@import "../ext_sass_libs/**/*";
+
+
+
+// Import variables, abstractions, base styles and components.
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
+.l-main{
+    min-height: 200px;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h4 {
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h5 {
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h6 {
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+body{
+    color: #000000;
+}
+.l-page{
+    margin:0 auto;
+    @include breakpoint($tab,true){
+        width: $tab;
+    }
+    @include breakpoint($desk,true){
+        width: $desk;
+    }
+}
+.l-main{
+    @include clearfix;
+}
+@include breakpoint($tab,true){
+    .l-content{
+        @include  grid-span(12,1);
+    }
+}
+@include breakpoint($desk,true){
+    .l-content{
+        @include grid-span(12,1)
+    }
+}
+.l-footer{
+    @include grid-span(12,1);
+    background: $sios-dark-blue;
+    min-height: 8em;
+    background: $sios-dark-blue;
+    padding: 0.5em;
+    border: 2px;
+    border-style: solid;
+    border-color: $sios-frame-border;
+}
+.h-gutter{
+    height: 5px;
+}
+.lower-content{
+    background: #556743;
+}
+.node__content{
+    background: $sios-light-blue;
+}
+.l-branding{
+    background: $sios-dark-blue;
+    border: 2px;
+    border-style: solid;
+    border-color: $sios-frame-border;
+    display: table;
+    width: 100%;
+}
+.site-slogan{
+    font-size: 80%;
+    float: right;
+}
+.site-name{
+    display: inline-block;
+    width: 80%;
+}
+.div-logo{
+    display: table-cell;
+    padding:0.5em;
+}
+.div-sitename{
+    display: table-cell;
+}
+.div-intra-search{
+    display: table-cell;
+    vertical-align: middle;
+    width: 30%;
+}
+.div-intranet{
+    width:100%;
+    border: 2px;
+    border-style: solid;
+    border-color: $sios-frame-border;
+    padding: 0.5em;
+}
+.div-search{
+    width:100%;
+    border: 2px;
+    border-style: solid;
+    border-color: $sios-frame-border;
+    padding: 0.5em;
+}
+.head-menu{
+    background: $sios-dark-blue;
+    padding: 0.5em;
+    border: 2px;
+    border-style: solid;
+    border-color: $sios-frame-border;
+}
+.navigation-home{
+    display: inline-block;
+}
+.navigation{
+    display: inline-block; 
+    float: right;
+}
+.contact{
+    width: 20%; 
+    padding: 0.5em; 
+    border: 2px; 
+    border-style: solid; 
+    border-color: $sios-frame-border;
+    float: left; 
+    margin-right: 0.5em;
+    height: 7em;
+}
+.sitemap{
+    padding: 0.5em; 
+    border: 2px; 
+    border-style: solid; 
+    border-color: $sios-frame-border;
+    overflow: hidden;
+    height: 7em;
+}
+.sitemap-menu{
+    display: inline-block;
+}
