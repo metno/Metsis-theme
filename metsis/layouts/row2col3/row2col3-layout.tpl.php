@@ -3,7 +3,7 @@
         <div class="l-branding">
             <div class="div-logo">
             <?php if ($logo): ?>
-              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" style="float:left;"/></a>
+              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="site-logo"/></a>
             <?php endif; ?>
             </div>
             <div class="div-sitename">
