@@ -15,31 +15,31 @@
 
 .leftcolumn{
     @include grid-span(3,1);
-    background: $sios-light-blue;
+    background: $content-background;
     color: #ffffff;
     min-height: 10em;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }
 .middlecolumn{
     @include grid-span(6,4);
-    background: $sios-light-blue;
+    background: $content-background;
     color: #ffffff;
     min-height: 10em;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }
 .rightcolumn{
     @include grid-span(3,10);
-    background: $sios-light-blue;
+    background: $content-background;
     color: #ffffff;
     min-height: 10em;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }

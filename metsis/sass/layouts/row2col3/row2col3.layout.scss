@@ -14,40 +14,40 @@
 
 .scalendar{
     @include grid-span(4,1);
-    background: $sios-light-blue;
+    background: $content-background;
     color: #ffffff;
     min-height: 10em;
     border: 2px; 
     border-style: solid; 
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }
 .smap{
     @include grid-span(4,5);
-    background: $sios-light-blue;
+    background: $content-background;
     color: #ffffff;
     min-height: 10em;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }
 .sposts{
     @include grid-span(4,9);
-    background: $sios-light-blue;
+    background: $content-background;
     color: #ffffff;
     min-height: 10em;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }
 .upper-content{
-    background: $sios-light-blue;
+    background: $content-background;
     min-height: 10em;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }
 .lower-content{

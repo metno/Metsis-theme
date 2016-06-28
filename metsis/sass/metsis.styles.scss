@@ -123,13 +123,12 @@ body{
 }
 .l-footer{
     @include grid-span(12,1);
-    background: $sios-dark-blue;
+    background: $footer-background;
     min-height: 8em;
-    background: $sios-dark-blue;
     padding: 0.5em;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
 }
 .h-gutter{
     height: 5px;
@@ -138,13 +137,13 @@ body{
     background: #556743;
 }
 .node__content{
-    background: $sios-light-blue;
+    background: $content-background;
 }
 .l-branding{
-    background: $sios-dark-blue;
+    background: $header-background;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     display: table;
     width: 100%;
 }
@@ -172,22 +171,22 @@ body{
     width:100%;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }
 .div-search{
     width:100%;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     padding: 0.5em;
 }
 .head-menu{
-    background: $sios-dark-blue;
+    background: $header-background;
     padding: 0.5em;
     border: 2px;
     border-style: solid;
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
 }
 .navigation-home{
     display: inline-block;
@@ -201,7 +200,7 @@ body{
     padding: 0.5em; 
     border: 2px; 
     border-style: solid; 
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     float: left; 
     margin-right: 0.5em;
     height: 7em;
@@ -210,7 +209,7 @@ body{
     padding: 0.5em; 
     border: 2px; 
     border-style: solid; 
-    border-color: $sios-frame-border;
+    border-color: $frame-border;
     overflow: hidden;
     height: 7em;
 }

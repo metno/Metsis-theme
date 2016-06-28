@@ -1,7 +1,7 @@
 table {
     border-spacing: 2px;
     border-collapse: separate;
-    background: $sios-frame-border;
+    background: $table-background;
 }
 
 table td, table th
@@ -10,9 +10,9 @@ table td, table th
 }
 
 tr.odd {
-    background-color: $sios-frame-border;
+    background-color: $table-background;
 }
 
 tr.even, tr.odd {
-    background-color: $sios-dark-blue;
+    background-color: $table-odd-background;
 }
