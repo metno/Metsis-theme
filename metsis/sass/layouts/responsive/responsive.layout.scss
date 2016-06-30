@@ -21,6 +21,9 @@
     border-style: solid; 
     border-color: $frame-border;
     padding: 0.5em;
+    @include breakpoint(650px) {
+    	@include grid-span(2, 1);
+  	}
 }
 .smap{
     @include grid-span(4,5);
