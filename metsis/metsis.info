@@ -44,3 +44,4 @@ regions[siosright] = SIOS Right
 ; ========================================
 layout[row2col3][stylesheets][all][] = css/layouts/row2col3/metsis-row2col3.layout.css
 layout[row1col3][stylesheets][all][] = css/layouts/row1col3/metsis-row1col3.layout.css
+layout[responsive][stylesheets][all][] = css/layouts/responsive/metsis-responsive.layout.css
