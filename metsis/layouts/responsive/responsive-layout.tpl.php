@@ -80,7 +80,7 @@
     <div class="h-gutter">
     </div>
 	<div class="responsivegrid" style="background-color:blue;">
-	<div>
+	</div>
     <div class="h-gutter"></div>
     <footer class="l-footer" role="contentinfo">
         <div id="contact" class="contact"><?php print render($page['contactinfo']); ?></div>
