@@ -53,3 +53,10 @@
 .lower-content{
     background: #556743;
 }
+.responsivegrid{
+	@include grid-span(1, 1);
+
+	@include breakpoint(650px) {
+    	@include grid-span(2, 1);
+  	}
+}
