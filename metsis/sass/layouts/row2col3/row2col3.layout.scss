@@ -12,36 +12,6 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
-.scalendar{
-    @include grid-span(4,1);
-    background: $content-background;
-    color: #ffffff;
-    min-height: 10em;
-    border: 2px; 
-    border-style: solid; 
-    border-color: $frame-border;
-    padding: 0.5em;
-}
-.smap{
-    @include grid-span(4,5);
-    background: $content-background;
-    color: #ffffff;
-    min-height: 10em;
-    border: 2px;
-    border-style: solid;
-    border-color: $frame-border;
-    padding: 0.5em;
-}
-.sposts{
-    @include grid-span(4,9);
-    background: $content-background;
-    color: #ffffff;
-    min-height: 10em;
-    border: 2px;
-    border-style: solid;
-    border-color: $frame-border;
-    padding: 0.5em;
-}
 .upper-content{
     background: $content-background;
     min-height: 10em;
@@ -52,4 +22,53 @@
 }
 .lower-content{
     background: #556743;
+}
+
+$three-col: 900px;
+
+@include add-grid(1 1);
+@include add-grid(4 4 4 at $three-col);
+@include add-gutter(1/8);
+@include add-gutter(1/4 at $three-col);
+
+.responsive-grid {
+
+  .left {
+    @include breakpoint($three-col) {
+      @include grid-span(1,1);
+      min-height: 400px;
+    }
+    background: $content-background;
+    color: #ffffff;
+    border: 2px;
+    border-style: solid;
+    border-color: $frame-border;
+    padding: 0.5em;
+  }
+
+  .center {
+    @include breakpoint($three-col) {
+      @include grid-span(1,2);
+      min-height: 400px;
+    }
+    background: $content-background;
+    color: #ffffff;
+    border: 2px;
+    border-style: solid;
+    border-color: $frame-border;
+    padding: 0.5em;
+  }
+
+  .right {
+    @include breakpoint($three-col) {
+      @include grid-span(1,3);
+      min-height: 400px;
+    }
+    background: $content-background;
+    color: #ffffff;
+    border: 2px;
+    border-style: solid;
+    border-color: $frame-border;
+    padding: 0.5em;
+  }
 }
