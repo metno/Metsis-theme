@@ -32,7 +32,6 @@ $three-col: 900px;
 @include add-gutter(1/4 at $three-col);
 
 .responsive-grid {
-  @include background-grid($color: $grid-color);
 
   .left {
     @include breakpoint($three-col) {
@@ -41,7 +40,6 @@ $three-col: 900px;
     }
     background: $content-background;
     color: #ffffff;
-    min-height: 10em;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
@@ -55,7 +53,6 @@ $three-col: 900px;
     }
     background: $content-background;
     color: #ffffff;
-    min-height: 10em;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
@@ -69,7 +66,6 @@ $three-col: 900px;
     }
     background: $content-background;
     color: #ffffff;
-    min-height: 10em;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
