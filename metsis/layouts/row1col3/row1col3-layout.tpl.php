@@ -57,19 +57,30 @@
             <?php if ($action_links): ?>
               <ul class="action-links"><?php print render($action_links); ?></ul>
             <?php endif; ?>
-            <div class="h-gutter">
-            </div>
-            <div class="lower-content">
-                <siosleft class="leftcolumn">
-                    <?php print render($page['siosleft']); ?>
-                </siosleft> <!-- /siosleft -->
-                <siosmiddle class="middlecolumn">
-                    <?php print render($page['siosmiddle']); ?>
-                </siosmiddle> <!-- /siosmiddle -->
-                <siosright class="rightcolumn">
-                    <?php print render($page['siosright']); ?>
-                </siosright> <!-- /siosright -->
-            </div>
+            <div class="h-gutter"></div>
+            <div class="responsive-grid">
+				<div class="center">
+					<div>
+						<siosmiddle>
+                    		<?php print render($page['siosmiddle']); ?>
+						</siosmiddle> <!-- /siosmiddle -->
+					</div>
+				</div>
+				<div class="left">
+					<div>
+						<siosleft>
+                    		<?php print render($page['siosleft']); ?>
+						</siosleft> <!-- /siosleft -->
+					</div>
+				</div>
+				<div class="right">
+					<div>
+						<siosright>
+                    		<?php print render($page['siosright']); ?>
+						</siosright> <!-- /siosright -->
+					</div>
+				</div>
+			</div>
             <?php print $feed_icons; ?>
         </div>
     </div>

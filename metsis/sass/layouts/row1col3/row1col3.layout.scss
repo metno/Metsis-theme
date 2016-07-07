@@ -12,34 +12,51 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
+$three-col: 900px;
 
-.leftcolumn{
-    @include grid-span(3,1);
+@include add-grid(1 1);
+@include add-grid(3 6 3 at $three-col);
+@include add-gutter(1/8);
+@include add-gutter(1/4 at $three-col);
+
+.responsive-grid {
+
+  .left {
+    @include breakpoint($three-col) {
+      @include grid-span(1,1);
+      min-height: 400px;
+    }
     background: $content-background;
     color: #ffffff;
-    min-height: 10em;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
     padding: 0.5em;
-}
-.middlecolumn{
-    @include grid-span(6,4);
+  }
+
+  .center {
+    @include breakpoint($three-col) {
+      @include grid-span(1,2);
+      min-height: 400px;
+    }
     background: $content-background;
     color: #ffffff;
-    min-height: 10em;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
     padding: 0.5em;
-}
-.rightcolumn{
-    @include grid-span(3,10);
+  }
+
+  .right {
+    @include breakpoint($three-col) {
+      @include grid-span(1,3);
+      min-height: 400px;
+    }
     background: $content-background;
     color: #ffffff;
-    min-height: 10em;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
     padding: 0.5em;
+  }
 }
