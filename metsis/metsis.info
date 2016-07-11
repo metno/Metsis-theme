@@ -38,6 +38,7 @@ regions[sisright] = SIS Right
 regions[siosleft] = SIOS Left
 regions[siosmiddle] = SIOS Middle
 regions[siosright] = SIOS Right
+regions[content] = Content
 
 ; ========================================
 ; Layout styles
