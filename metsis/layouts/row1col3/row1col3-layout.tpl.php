@@ -13,10 +13,6 @@
                     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Svalbard Integrated Earth Observing System <br/>- The Knowledge Centre</a>
                 </h1>
               <?php endif; ?>
-
-              <?php if ($site_slogan): ?>
-                <h2 class="site-slogan">test<?php print $site_slogan; ?></h2>
-              <?php endif; ?>
             <?php endif; ?>
             </div>
             <div class="div-intra-search">
