@@ -121,14 +121,6 @@ body{
         @include grid-span(12,1)
     }
 }
-.l-footer{
-    width: 100%;
-    background: $footer-background;
-    min-height: 8em;
-    border: 2px;
-    border-style: solid;
-    border-color: $frame-border;
-}
 .h-gutter{
     height: 5px;
 }
@@ -202,6 +194,7 @@ body{
     float: left; 
     margin-right: 0.5em;
     height: 7em;
+    margin: 0.5em;
 }
 .sitemap{
     padding: 0.5em; 
@@ -210,6 +203,7 @@ body{
     border-color: $frame-border;
     overflow: hidden;
     height: 7em;
+    margin: 0.5em;
 }
 .sitemap-menu{
     display: inline-block;
