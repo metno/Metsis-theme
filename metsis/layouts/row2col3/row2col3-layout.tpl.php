@@ -57,21 +57,21 @@
 			<div class="h-gutter"></div>
 			<div class="responsive-grid">
 				<div class="center">
-					<div>
+					<div style="padding: 0.5em; display: flex;">
 						<sismiddle>
                     		<?php print render($page['sismiddle']); ?>
 						</sismiddle> <!-- /sismiddle -->
 					</div>
 				</div>
 				<div class="left">
-					<div>
+					<div style="padding: 0.5em; display: flex;">
 						<sisleft>
                     		<?php print render($page['sisleft']); ?>
 						</sisleft> <!-- /sisleft -->
 					</div>
 				</div>
 				<div class="right">
-					<div>
+					<div style="padding: 0.5em; display: flex;">
 						<sisright>
                     		<?php print render($page['sisright']); ?>
 						</sisright> <!-- /sisright -->
