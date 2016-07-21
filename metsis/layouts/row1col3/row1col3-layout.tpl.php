@@ -76,9 +76,6 @@
             <?php print $feed_icons; ?>
         </div>
     </div>
-    <div class="h-gutter">
-    </div>
-
     <div class="h-gutter"></div>
     <footer class="l-footer" role="contentinfo">
     <div class="l-branding">

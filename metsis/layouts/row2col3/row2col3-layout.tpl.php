@@ -92,7 +92,6 @@
             <?php print $feed_icons; ?>
 		</div>
 	</div>
-
 	<div class="h-gutter"></div>
 	<footer class="l-footer" role="contentinfo">
 		<div id="contact" class="contact"><?php print render($page['contactinfo']); ?>
