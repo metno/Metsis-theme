@@ -122,10 +122,9 @@ body{
     }
 }
 .l-footer{
-    @include grid-span(12,1);
+    width: 100%
     background: $footer-background;
     min-height: 8em;
-    padding: 0.5em;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;

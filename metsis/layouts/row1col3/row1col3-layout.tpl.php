@@ -85,11 +85,13 @@
 
     <div class="h-gutter"></div>
     <footer class="l-footer" role="contentinfo">
+    <div class="l-branding">
         <div id="contact" class="contact"><?php print render($page['contactinfo']); ?></div>
         <div id="sitemap" class="sitemap">
             <div class="sitemap-menu">
                  <?php print render($page['sitemap']); ?>
             </div>
         </div>
+    </div>
     </footer>
 </div>
