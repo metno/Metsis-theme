@@ -54,6 +54,7 @@
 			<div class="upper-content">
             <?php print render($page['siscontent']); ?>
 			</div>
+			<div class="h-gutter"></div>
 			<div class="responsive-grid">
 				<div class="center">
 					<div>
