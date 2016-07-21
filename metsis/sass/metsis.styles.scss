@@ -173,17 +173,18 @@ body{
 }
 .head-menu{
     background: $header-background;
-    padding: 0.5em;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
 }
 .navigation-home{
     display: inline-block;
+    margin: 0.5em;
 }
 .navigation{
     display: inline-block; 
     float: right;
+    margin: 0.5em;
 }
 .contact{
     width: 20%; 
