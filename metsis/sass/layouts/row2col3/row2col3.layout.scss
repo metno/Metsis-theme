@@ -23,12 +23,12 @@
 
 $three-col: 900px;
 
+.responsive-grid {
+
 @include add-grid(1 1);
 @include add-grid(4 4 4 at $three-col);
 @include add-gutter(1/8);
 @include add-gutter(1/4 at $three-col);
-
-.responsive-grid {
 
   .left {
     @include breakpoint($three-col) {
