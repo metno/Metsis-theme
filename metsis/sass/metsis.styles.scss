@@ -187,15 +187,13 @@ body{
     margin: 0.5em;
 }
 .contact{
-    width: 20%; 
     padding: 0.5em; 
     border: 2px; 
     border-style: solid; 
     border-color: $frame-border;
-    float: left; 
-    margin-right: 0.5em;
     height: 7em;
     margin: 0.5em;
+    margin-right: 0em;
 }
 .sitemap{
     padding: 0.5em; 
@@ -211,4 +209,35 @@ body{
 .site-logo {
 	float: left;
 	width: 10em;
+}
+
+$footer-col: 900px;
+
+.responsive-footer {
+
+@include add-grid(1 1);
+@include add-grid(3 9 at $footer-col);
+
+@include add-gutter(1/160);
+@include add-gutter(1/80 at $footer-col);
+
+
+    background: $header-background;
+    border: 2px;
+    border-style: solid;
+    border-color: $frame-border;
+    display: table;
+    width: 100%;
+
+  .contact-div {
+    @include breakpoint($footer-col) {
+      @include grid-span(1,1);
+    }
+  }
+  
+  .sitemap-div {
+    @include breakpoint($footer-col) {
+      @include grid-span(1,2);
+    }
+  }
 }
