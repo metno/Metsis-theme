@@ -21,6 +21,8 @@
     padding: 0.5em;
 }
 
+$three-col: 900px;
+
 @include add-grid(1 1);
 @include add-grid(4 4 4 at $three-col);
 @include add-gutter(1/8);
