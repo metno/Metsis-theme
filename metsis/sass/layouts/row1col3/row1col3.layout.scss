@@ -12,8 +12,6 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
-$three-col: 900px;
-
 @include add-grid(1 1);
 @include add-grid(3 6 3 at $three-col);
 @include add-gutter(1/8);
