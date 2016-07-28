@@ -1,21 +1,23 @@
 <div class="l-page">
     <header class="l-header" role="banner">
-        <div class="l-branding">
-            <div class="div-logo">
-            <?php if ($logo): ?>
-              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" ><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="site-logo"/></a>
-            <?php endif; ?>
+        <div class="responsive-header">
+            <div class="logo-title-div">
+	            <div class="div-logo">
+		        	<?php if ($logo): ?>
+		              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" ><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="site-logo"/></a>
+		            <?php endif; ?>
+	            </div>
+	            <div class="div-sitename">
+		            <?php if ($site_name || $site_slogan): ?>
+		              <?php if ($site_name): ?>
+		                <h1 class="site-name">
+		                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Svalbard Integrated Earth Observing System <br/>- The Knowledge Centre</a>
+		                </h1>
+		              <?php endif; ?>
+		            <?php endif; ?>
+	            </div>
             </div>
-            <div class="div-sitename">
-            <?php if ($site_name || $site_slogan): ?>
-              <?php if ($site_name): ?>
-                <h1 class="site-name">
-                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Svalbard Integrated Earth Observing System <br/>- The Knowledge Centre</a>
-                </h1>
-              <?php endif; ?>
-            <?php endif; ?>
-            </div>
-            <div class="div-intra-search">
+            <div class="intra-search-div">
               <div class="div-intranet">
                 <h1>
                     <a href="#" rel="intranet"><?php print t('Intranet'); ?></a>
