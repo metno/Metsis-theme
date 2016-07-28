@@ -210,15 +210,13 @@ body{
 	width: 10em;
 }
 
-$footer-col: 900px;
-
 .responsive-footer {
 
 @include add-grid(1 1);
-@include add-grid(3 9 at $footer-col);
+@include add-grid(3 9 at $responsive-width);
 
 @include add-gutter(1/160);
-@include add-gutter(1/80 at $footer-col);
+@include add-gutter(1/80 at $responsive-width);
 
 
     background: $header-background;
@@ -229,13 +227,13 @@ $footer-col: 900px;
     width: 100%;
 
   .contact-div {
-    @include breakpoint($footer-col) {
+    @include breakpoint($responsive-width) {
       @include grid-span(1,1);
     }
   }
   
   .sitemap-div {
-    @include breakpoint($footer-col) {
+    @include breakpoint($responsive-width) {
       @include grid-span(1,2);
     }
   }
