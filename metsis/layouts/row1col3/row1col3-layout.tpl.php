@@ -54,21 +54,21 @@
             <?php endif; ?>
             <div class="responsive-grid">
 				<div class="center">
-					<div style="padding: 0.5em; display: flex;">
+					<div style="padding: 0.5em;">
 						<siosmiddle>
                     		<?php print render($page['siosmiddle']); ?>
 						</siosmiddle> <!-- /siosmiddle -->
 					</div>
 				</div>
 				<div class="left">
-					<div style="padding: 0.5em; display: flex;">
+					<div style="padding: 0.5em;">
 						<siosleft>
                     		<?php print render($page['siosleft']); ?>
 						</siosleft> <!-- /siosleft -->
 					</div>
 				</div>
 				<div class="right">
-					<div style="padding: 0.5em; display: flex;">
+					<div style="padding: 0.5em;">
 						<siosright>
                     		<?php print render($page['siosright']); ?>
 						</siosright> <!-- /siosright -->
