@@ -46,7 +46,7 @@
 			<a id="main-content"></a>
             <?php print render($title_prefix); ?>
             <?php print render($title_suffix); ?>
-            <?php print $messages; ?>
+            <?php print $messages; ?> 
             <?php print render($tabs); ?>
             <?php print render($page['help']); ?>
             <?php if ($action_links): ?>
