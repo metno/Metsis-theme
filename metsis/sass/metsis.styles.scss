@@ -238,3 +238,32 @@ body{
     }
   }
 }
+
+.responsive-header {
+
+@include add-grid(1 1);
+@include add-grid(8 4 at $responsive-width);
+
+@include add-gutter(1/160);
+@include add-gutter(1/80 at $responsive-width);
+
+
+    background: $header-background;
+    border: 2px;
+    border-style: solid;
+    border-color: $frame-border;
+    display: table;
+    width: 100%;
+
+  .logo-title-div {
+    @include breakpoint($responsive-width) {
+      @include grid-span(1,1);
+    }
+  }
+  
+  .intra-search-div {
+    @include breakpoint($responsive-width) {
+      @include grid-span(1,2);
+    }
+  }
+}
