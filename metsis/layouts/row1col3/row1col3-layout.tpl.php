@@ -38,7 +38,6 @@
         <div id="menu-home" class="navigation-home"><a href="<?php print $front_page; ?>" rel="home"><?php print t('Home'); ?></a></div>
         <div id="menu4" class="navigation"><?php print render($page['navigation']); ?></div>
     </div>
-    <div class="h-gutter"></div>
     <div class="l-main">
         <div class="l-content" role="main">
             <?php print render($page['highlighted']); ?>
