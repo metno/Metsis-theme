@@ -26,18 +26,18 @@ regions[search] = Search
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
 regions[help] = Help
-regions[siscontent] = SIS Content
+regions[divinecontent] = Divine Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 regions[contactinfo] = Contact
 regions[sitemap] = Sitemap
-regions[sisleft] = SIS Left
-regions[sismiddle] = SIS Middle
-regions[sisright] = SIS Right
-regions[siosleft] = SIOS Left
-regions[siosmiddle] = SIOS Middle
-regions[siosright] = SIOS Right
+regions[divineleft] = Divine Left
+regions[divinemiddle] = Divine Middle
+regions[divineright] = Divine Right
+regions[canvasleft] = canvas Left
+regions[canvasmiddle] = canvas Middle
+regions[canvasright] = canvas Right
 regions[content] = Content
 
 ; ========================================
