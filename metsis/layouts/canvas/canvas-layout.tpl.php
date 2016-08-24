@@ -38,50 +38,45 @@
         <div id="menu-home" class="navigation-home"><a href="<?php print $front_page; ?>" rel="home"><?php print t('Home'); ?></a></div>
         <div id="menu4" class="navigation"><?php print render($page['navigation']); ?></div>
     </div>
-    <div class="h-gutter"></div>
-	<div class="l-main">
-		<div class="l-content" role="main">
+    <div class="l-main">
+        <div class="l-content" role="main">
             <?php print render($page['highlighted']); ?>
             <?php print $breadcrumb; ?>
-			<a id="main-content"></a>
+            <a id="main-content"></a>
             <?php print render($title_prefix); ?>
             <?php print render($title_suffix); ?>
-            <?php print $messages; ?> 
+            <?php print $messages; ?>
             <?php print render($tabs); ?>
             <?php print render($page['help']); ?>
             <?php if ($action_links): ?>
-			<ul class="action-links"><?php print render($action_links); ?>
-			</ul>
+              <ul class="action-links"><?php print render($action_links); ?></ul>
             <?php endif; ?>
-			<div class="upper-content">
-            <?php print render($page['siscontent']); ?>
-			</div>
-			<div class="responsive-grid">
+            <div class="responsive-grid">
 				<div class="center">
 					<div style="padding: 0.5em;">
-						<sismiddle>
-                    		<?php print render($page['sismiddle']); ?>
-						</sismiddle> <!-- /sismiddle -->
+						<canvasmiddle>
+                    		<?php print render($page['canvasmiddle']); ?>
+						</canvasmiddle> <!-- /canvasmiddle -->
 					</div>
 				</div>
 				<div class="left">
 					<div style="padding: 0.5em;">
-						<sisleft>
-                    		<?php print render($page['sisleft']); ?>
-						</sisleft> <!-- /sisleft -->
+						<canvasleft>
+                    		<?php print render($page['canvasleft']); ?>
+						</canvasleft> <!-- /canvasleft -->
 					</div>
 				</div>
 				<div class="right">
 					<div style="padding: 0.5em;">
-						<sisright>
-                    		<?php print render($page['sisright']); ?>
-						</sisright> <!-- /sisright -->
+						<canvasright>
+                    		<?php print render($page['canvasright']); ?>
+						</canvasright> <!-- /canvasright -->
 					</div>
 				</div>
 			</div>
             <?php print $feed_icons; ?>
-		</div>
-	</div>
+        </div>
+    </div>
     <div class="h-gutter"></div>
     <footer class="l-footer" role="contentinfo">
     <div class="responsive-footer">

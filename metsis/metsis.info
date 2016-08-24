@@ -43,5 +43,6 @@ regions[content] = Content
 ; ========================================
 ; Layout styles
 ; ========================================
-layout[row2col3][stylesheets][all][] = css/layouts/row2col3/metsis-row2col3.layout.css
-layout[row1col3][stylesheets][all][] = css/layouts/row1col3/metsis-row1col3.layout.css
+layout[divine][stylesheets][all][] = css/layouts/divine/metsis-divine.layout.css
+layout[canvas][stylesheets][all][] = css/layouts/canvas/metsis-canvas.layout.css
+layout[simple][stylesheets][all][] = css/layouts/simple/metsis-simple.layout.css

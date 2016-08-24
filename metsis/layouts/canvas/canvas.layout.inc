@@ -1,6 +1,6 @@
-name = Two row three column
-description = Two row three column
-template = row2col3-layout
+name = Canvas
+description = A layout with one row three columns
+template = canvas-layout
 preview = preview.png
 
 
@@ -10,20 +10,19 @@ preview = preview.png
 ; ========================================
 regions[branding] = Branding
 regions[header] = Header
+regions[search] = Search
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
 regions[help] = Help
 regions[footer] = Footer
+regions[canvasleft] = Canvas Left
+regions[canvasmiddle] = Canvas Middle
+regions[canvasright] = Canvas Right
 regions[contactinfo] = Contact
 regions[sitemap] = Site map
-regions[siscontent] = SIS Content
-regions[sisleft] = SIS Left
-regions[sismiddle] = SIS Middle
-regions[sisright] = SIS Right
-regions[search] = Search
 
 ; ========================================
 ; Styles
 ; ========================================
-stylesheets[all][] = css/layouts/row2col3/row2col3.layout.css
-stylesheets[all][] = css/layouts/row2col3/row2col3.layout.no-query.css
+stylesheets[all][] = css/layouts/canvas/canvas.layout.css
+stylesheets[all][] = css/layouts/canvas/canvas.layout.no-query.css

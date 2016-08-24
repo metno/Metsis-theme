@@ -1,6 +1,6 @@
-name = One row three column
-description = One row three column
-template = row1col3-layout
+name = Divine
+description = A layout with two row three column
+template = divine-layout
 preview = preview.png
 
 
@@ -10,19 +10,20 @@ preview = preview.png
 ; ========================================
 regions[branding] = Branding
 regions[header] = Header
-regions[search] = Search
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
 regions[help] = Help
 regions[footer] = Footer
-regions[siosleft] = SIOS Left
-regions[siosmiddle] = SIOS Middle
-regions[siosright] = SIOS Right
 regions[contactinfo] = Contact
 regions[sitemap] = Site map
+regions[divinecontent] = Divine Content
+regions[divineleft] = divine Left
+regions[divinemiddle] = divine Middle
+regions[divineright] = divine Right
+regions[search] = Search
 
 ; ========================================
 ; Styles
 ; ========================================
-stylesheets[all][] = css/layouts/row1col3/row1col3.layout.css
-stylesheets[all][] = css/layouts/row1col3/row1col3.layout.no-query.css
+stylesheets[all][] = css/layouts/divine/divine.layout.css
+stylesheets[all][] = css/layouts/divine/divine.layout.no-query.css
