@@ -54,28 +54,28 @@
 			</ul>
             <?php endif; ?>
 			<div class="upper-content">
-            <?php print render($page['divinecontent']); ?>
+            <?php print render($page['metalcontent']); ?>
 			</div>
 			<div class="responsive-grid">
 				<div class="center">
 					<div style="padding: 0.5em;">
-						<divinemiddle>
-                    		<?php print render($page['divinemiddle']); ?>
-						</divinemiddle> <!-- /divinemiddle -->
+						<metalmiddle>
+                    		<?php print render($page['metalmiddle']); ?>
+						</metalmiddle> <!-- /metalmiddle -->
 					</div>
 				</div>
 				<div class="left">
 					<div style="padding: 0.5em;">
-						<divineleft>
-                    		<?php print render($page['divineleft']); ?>
-						</divineleft> <!-- /divineleft -->
+						<metalleft>
+                    		<?php print render($page['metalleft']); ?>
+						</metalleft> <!-- /metalleft -->
 					</div>
 				</div>
 				<div class="right">
 					<div style="padding: 0.5em;">
-						<divineright>
-                    		<?php print render($page['divineright']); ?>
-						</divineright> <!-- /divineright -->
+						<metalright>
+                    		<?php print render($page['metalright']); ?>
+						</metalright> <!-- /metalright -->
 					</div>
 				</div>
 			</div>

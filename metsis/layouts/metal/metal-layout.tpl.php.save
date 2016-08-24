@@ -64,15 +64,15 @@
             <div class="h-gutter">
             </div>
             <div class="lower-content">
-                <sisleft class="scalendar">
-                    <?php print render($page['sisleft']); ?>
-                </sisleft> <!-- /sisleft -->
-                <sismiddle class="smap">
-                    <?php print render($page['sismiddle']); ?>
-                </sismiddle> <!-- /sismiddle -->
-                <sisright class="sposts">
-                    <?php print render($page['sisright']); ?>
-                </sisright> <!-- /sisright -->
+                <Metalleft class="scalendar">
+                    <?php print render($page['Metalleft']); ?>
+                </Metalleft> <!-- /Metalleft -->
+                <Metalmiddle class="smap">
+                    <?php print render($page['Metalmiddle']); ?>
+                </Metalmiddle> <!-- /Metalmiddle -->
+                <Metalright class="sposts">
+                    <?php print render($page['Metalright']); ?>
+                </Metalright> <!-- /Metalright -->
             </div>
 
             <?php print $feed_icons; ?>

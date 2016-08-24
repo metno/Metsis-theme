@@ -26,15 +26,15 @@ regions[search] = Search
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
 regions[help] = Help
-regions[divinecontent] = Divine Content
+regions[metalcontent] = Metal Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 regions[contactinfo] = Contact
 regions[sitemap] = Sitemap
-regions[divineleft] = Divine Left
-regions[divinemiddle] = Divine Middle
-regions[divineright] = Divine Right
+regions[metalleft] = Metal Left
+regions[metalmiddle] = Metal Middle
+regions[metalright] = Metal Right
 regions[canvasleft] = Canvas Left
 regions[canvasmiddle] = Canvas Middle
 regions[canvasright] = Canvas Right
@@ -43,6 +43,6 @@ regions[content] = Content
 ; ========================================
 ; Layout styles
 ; ========================================
-layout[divine][stylesheets][all][] = css/layouts/divine/metsis-divine.layout.css
+layout[metal][stylesheets][all][] = css/layouts/metal/metsis-metal.layout.css
 layout[canvas][stylesheets][all][] = css/layouts/canvas/metsis-canvas.layout.css
-layout[simple][stylesheets][all][] = css/layouts/simple/metsis-simple.layout.css
+layout[water][stylesheets][all][] = css/layouts/water/metsis-water.layout.css
