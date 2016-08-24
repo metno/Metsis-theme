@@ -35,9 +35,9 @@ regions[sitemap] = Sitemap
 regions[divineleft] = Divine Left
 regions[divinemiddle] = Divine Middle
 regions[divineright] = Divine Right
-regions[canvasleft] = canvas Left
-regions[canvasmiddle] = canvas Middle
-regions[canvasright] = canvas Right
+regions[canvasleft] = Canvas Left
+regions[canvasmiddle] = Canvas Middle
+regions[canvasright] = Canvas Right
 regions[content] = Content
 
 ; ========================================
