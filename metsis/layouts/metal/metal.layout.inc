@@ -1,4 +1,4 @@
-name = metal
+name = Metal
 description = A layout with two row three column
 template = metal-layout
 preview = preview.png
