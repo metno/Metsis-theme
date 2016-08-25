@@ -27,6 +27,7 @@ regions[navigation] = Navigation
 regions[highlighted] = Highlighted
 regions[help] = Help
 regions[metalcontent] = Metal Content
+regions[watercontent] = Water Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
