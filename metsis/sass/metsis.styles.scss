@@ -33,6 +33,7 @@
 
 .l-main{
     min-height: 200px;
+    font-family: $font-content;
 }
 
 p {
@@ -178,6 +179,7 @@ body{
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
+    font-family: $font-header;
 }
 .navigation-home{
     display: inline-block;
@@ -227,6 +229,7 @@ body{
     border-color: $frame-border;
     display: table;
     width: 100%;
+    font-family: $font-footer;
 
   .contact-div {
     @include breakpoint($responsive-width) {
@@ -256,6 +259,7 @@ body{
     border-color: $frame-border;
     display: table;
     width: 100%;
+    font-family: $font-header;
 
   .logo-title-div {
     @include breakpoint($responsive-width) {
