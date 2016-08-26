@@ -7,15 +7,6 @@
 		              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" ><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="site-logo"/></a>
 		            <?php endif; ?>
 	            </div>
-	            <div class="div-sitename">
-		            <?php if ($site_name || $site_slogan): ?>
-		              <?php if ($site_name): ?>
-		                <h1 class="site-name">
-		                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Svalbard Integrated Earth Observing System <br/>- The Knowledge Centre</a>
-		                </h1>
-		              <?php endif; ?>
-		            <?php endif; ?>
-	            </div>
             </div>
             <div class="intra-search-div">
               <div class="div-intranet">
