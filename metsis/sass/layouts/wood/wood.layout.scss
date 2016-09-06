@@ -1,0 +1,56 @@
+@import "compass";
+//We don't want to have the overhead of bundler and co. so we import 
+//breakpoint, singularity, toolkit etc. manually, using globbing here.
+//ext_sass_libs contains external sass libraries 
+//(copied over from /var/lib/gems/2.3.0/gems)
+@import "../../../ext_sass_libs/**/*";
+
+
+// Import variables, abstractions, base styles and components.
+@import "../../variables/**/*";
+@import "../../abstractions/**/*";
+@import "../../base/**/*";
+@import "../../components/**/*";
+
+.responsive-table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1em 0;
+    width: 50%;
+}
+.row {
+    display: table-row;
+}
+.col {
+    display: table-cell;
+    background-color: #fff;
+    padding: 1em;
+}
+.col.right-sidebar .col.left-sidebar{
+    width: 40%;
+}
+.col.content {
+    /*width: 50%;*/
+}
+
+@media all and (max-width: 840px) { 
+    .left-sidebar {
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    .table {
+        display: block;
+    }
+    .row {
+        display: block;
+    }
+    .col {
+        display: block;
+    }
+    .col.content {
+        margin-bottom: 1em;
+    }
+    .table {
+        width: 100%;
+    }
+}
