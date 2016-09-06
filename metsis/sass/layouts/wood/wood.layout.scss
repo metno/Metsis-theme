@@ -16,7 +16,7 @@
     display: table;
     border-collapse: separate;
     width: 100%;
-    border-spacing: 0.5em 0em;
+    border-spacing: 0.5em 0.25em;
 }
 .row {
     display: table-row;
@@ -37,8 +37,9 @@
 @media all and (max-width: 840px) {
     .left-sidebar {
     }
-    .table {
+    .responsive-table {
         display: block;
+        border-spacing: 0em;
     }
     .row {
         display: block;
