@@ -16,25 +16,26 @@
     display: table;
     border-collapse: separate;
     width: 100%;
+    border-spacing: 0.5em 0em;
 }
 .row {
     display: table-row;
 }
 .col {
     display: table-cell;
-    background-color: #fff;
+    background-color: $content-background;
+    border: 2px solid;
+    border-color: $frame-border;
+    padding: 0.5em;
 }
-.col.right-sidebar .col.left-sidebar{
-    width: 30%;
+.right-sidebar .left-sidebar{
 }
-.col.content {
-    padding: 0 1em;
+.content {
+    width:50%;
 }
 
-@media all and (max-width: 840px) { 
+@media all and (max-width: 840px) {
     .left-sidebar {
-        padding: 1em;
-        margin-bottom: 1em;
     }
     .table {
         display: block;
@@ -44,11 +45,19 @@
     }
     .col {
         display: block;
-    }
-    .col.content {
-        margin-bottom: 1em;
-    }
-    .table {
         width: 100%;
+        margin: 0.5em 0em;
     }
+    .content {
+        width:100%;
+    }
+}
+
+.upper-content{
+    background: $content-background;
+    min-height: 10em;
+    border: 2px;
+    border-style: solid;
+    border-color: $frame-border;
+    padding: 0.5em;
 }

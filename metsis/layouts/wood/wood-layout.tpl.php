@@ -44,8 +44,10 @@
 			<ul class="action-links"><?php print render($action_links); ?>
 			</ul>
             <?php endif; ?>
-			<div class="upper-content">
-            <?php print render($page['woodcontent']); ?>
+            <div class="responsive-table">
+				<div class="upper-content">
+            		<?php print render($page['woodcontent']); ?>
+				</div>
 			</div>
 			<div class="responsive-table">
 	            <div class="row">
