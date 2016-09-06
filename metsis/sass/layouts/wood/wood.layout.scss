@@ -15,8 +15,7 @@
 .responsive-table {
     display: table;
     border-collapse: separate;
-    border-spacing: 1em 0;
-    width: 50%;
+    width: 100%;
 }
 .row {
     display: table-row;
@@ -24,13 +23,12 @@
 .col {
     display: table-cell;
     background-color: #fff;
-    padding: 1em;
 }
 .col.right-sidebar .col.left-sidebar{
-    width: 40%;
+    width: 30%;
 }
 .col.content {
-    /*width: 50%;*/
+    padding: 0 1em;
 }
 
 @media all and (max-width: 840px) { 
