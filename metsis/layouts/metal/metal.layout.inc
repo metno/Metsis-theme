@@ -1,5 +1,5 @@
 name = Metal
-description = A layout with two row three column
+description = A layout with two rows three unequal height columns
 template = metal-layout
 preview = preview.png
 

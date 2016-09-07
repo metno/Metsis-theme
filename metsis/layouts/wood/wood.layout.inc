@@ -1,5 +1,5 @@
 name = Wood
-description = A layout with two row three equal height column
+description = A layout with two rows three equal height columns
 template = wood-layout
 preview = preview.png
 

@@ -1,6 +1,6 @@
-name = Canvas
-description = A layout with one row three unequal height columns
-template = canvas-layout
+name = Fire
+description = A layout with one row three equal height columns
+template = fire-layout
 preview = preview.png
 
 
@@ -10,19 +10,19 @@ preview = preview.png
 ; ========================================
 regions[branding] = Branding
 regions[header] = Header
-regions[search] = Search
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
 regions[help] = Help
 regions[footer] = Footer
-regions[canvasleft] = Canvas Left
-regions[canvasmiddle] = Canvas Middle
-regions[canvasright] = Canvas Right
 regions[contactinfo] = Contact
 regions[sitemap] = Site map
+regions[fireleft] = Fire Left
+regions[firemiddle] = Fire Middle
+regions[fireright] = Fire Right
+regions[search] = Search
 
 ; ========================================
 ; Styles
 ; ========================================
-stylesheets[all][] = css/layouts/canvas/canvas.layout.css
-stylesheets[all][] = css/layouts/canvas/canvas.layout.no-query.css
+stylesheets[all][] = css/layouts/fire/fire.layout.css
+stylesheets[all][] = css/layouts/fire/fire.layout.no-query.css

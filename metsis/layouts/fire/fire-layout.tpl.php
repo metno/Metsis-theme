@@ -44,27 +44,22 @@
 			<ul class="action-links"><?php print render($action_links); ?>
 			</ul>
             <?php endif; ?>
-            <div class="responsive-table">
-				<div class="upper-content">
-            		<?php print render($page['woodcontent']); ?>
-				</div>
-			</div>
 			<div class="responsive-table">
 	            <div class="responsive-row">
 	                <div class="responsive-col left-sidebar">
-	                    <woodleft>
-	                    	<?php print render($page['woodleft']); ?>
-						</woodleft> <!-- /woodleft -->
+	                    <fireleft>
+	                    	<?php print render($page['fireleft']); ?>
+						</fireleft> <!-- /fireleft -->
 	                </div>
 	                <div class="responsive-col content">
-	                    <woodmiddle>
-                    		<?php print render($page['woodmiddle']); ?>
-						</woodmiddle> <!-- /woodmiddle -->
+	                    <firemiddle>
+                    		<?php print render($page['firemiddle']); ?>
+						</firemiddle> <!-- /firemiddle -->
 	                </div>
 	                <div class="responsive-col right-sidebar">
-	                    <woodright>
-                    		<?php print render($page['woodright']); ?>
-						</woodright> <!-- /woodright -->
+	                    <fireright>
+                    		<?php print render($page['fireright']); ?>
+						</fireright> <!-- /fireright -->
 	                </div>
 	            </div>
 	        </div>

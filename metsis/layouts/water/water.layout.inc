@@ -1,5 +1,5 @@
 name = Water
-description = A layout with one row
+description = A layout with one row one column
 template = water-layout
 preview = preview.png
 

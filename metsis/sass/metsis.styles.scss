@@ -273,3 +273,52 @@ body{
     }
   }
 }
+
+/*Start css for responsive columns with same heigth*/
+.responsive-table {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border-spacing: 0.5em 0.25em;
+}
+.responsive-row {
+    display: table-row;
+}
+.responsive-col {
+    display: table-cell;
+    background-color: $content-background;
+    border: 2px solid;
+    border-color: $frame-border;
+    padding: 0.5em;
+}
+.right-sidebar{
+    width:25%;
+} 
+.left-sidebar{
+    width:25%;
+}
+.responsive-content {
+    width:50%;
+}
+
+@media all and (max-width: $responsive-width) {
+    .left-sidebar {
+    }
+    .responsive-table {
+        display: block;
+        border-spacing: 0em;
+    }
+    .responsive-row {
+        display: block;
+    }
+    .responsive-col {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0em;
+    }
+    .responsive-content {
+        width:100%;
+    }
+}
+
+/*End css for responsive columns with same heigth*/

@@ -43,6 +43,9 @@ regions[woodcontent] = Wood Content
 regions[woodleft] = Wood Left
 regions[woodmiddle] = Wood Middle
 regions[woodright] = Wood Right
+regions[fireleft] = Fire Left
+regions[firemiddle] = Fire Middle
+regions[fireright] = Fire Right
 regions[content] = Content
 
 ; ========================================
@@ -52,3 +55,4 @@ layout[metal][stylesheets][all][] = css/layouts/metal/metsis-metal.layout.css
 layout[canvas][stylesheets][all][] = css/layouts/canvas/metsis-canvas.layout.css
 layout[water][stylesheets][all][] = css/layouts/water/metsis-water.layout.css
 layout[wood][stylesheets][all][] = css/layouts/wood/metsis-wood.layout.css
+layout[fire][stylesheets][all][] = css/layouts/fire/metsis-fire.layout.css
