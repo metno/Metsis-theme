@@ -150,9 +150,6 @@ body{
     display: table-cell;
     padding:0.5em;
 }
-.div-sitename{
-    display: table-cell;
-}
 .div-intra-search{
     display: table-cell;
     vertical-align: middle;
@@ -190,46 +187,10 @@ body{
     float: right;
     margin: 0.5em;
 }
-.contact{
-    padding: 0.5em; 
-    border: 2px; 
-    border-style: solid; 
-    border-color: $frame-border;
-    height: 8em;
-    margin: 0.5em;
-}
-.sitemap{
-    padding: 0.5em; 
-    border: 2px; 
-    border-style: solid; 
-    border-color: $frame-border;
-    overflow: hidden;
-    height: 8em;
-    margin: 0.5em;
-}
-.sitemap-menu{
-}
 .site-logo {
 	float: left;
 	width: 10em;
 }
-
-/*start responsive footer*/
-.responsive-footer {
-    background: $header-background;
-    border: 2px;
-    border-style: solid;
-    border-color: $frame-border;
-    font-family: $font-footer;
-}
-
-.contact-div{
-    width:30%;
-} 
-.sitemap-div{
-    width:70%;
-}
-/*end responsive footer*/
 
 .responsive-header {
 
@@ -260,6 +221,23 @@ body{
     }
   }
 }
+
+/*start responsive footer*/
+.responsive-footer {
+    background: $header-background;
+    border: 2px;
+    border-style: solid;
+    border-color: $frame-border;
+    font-family: $font-footer;
+}
+
+.contact-div{
+    width:30%;
+} 
+.sitemap-div{
+    width:70%;
+}
+/*end responsive footer*/
 
 /*Start css for responsive columns with same heigth*/
 .responsive-table {
