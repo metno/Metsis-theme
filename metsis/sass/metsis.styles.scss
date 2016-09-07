@@ -214,35 +214,22 @@ body{
 	width: 10em;
 }
 
+/*start responsive footer*/
 .responsive-footer {
-
-@include add-grid(1 1);
-@include add-grid(3 9 at $responsive-width);
-
-@include add-gutter(1/160);
-@include add-gutter(1/80 at $responsive-width);
-
-
     background: $header-background;
     border: 2px;
     border-style: solid;
     border-color: $frame-border;
-    display: table;
-    width: 100%;
     font-family: $font-footer;
-
-  .contact-div {
-    @include breakpoint($responsive-width) {
-      @include grid-span(1,1);
-    }
-  }
-  
-  .sitemap-div {
-    @include breakpoint($responsive-width) {
-      @include grid-span(1,2);
-    }
-  }
 }
+
+.contact-div{
+    width:30%;
+} 
+.sitemap-div{
+    width:70%;
+}
+/*end responsive footer*/
 
 .responsive-header {
 
@@ -286,19 +273,21 @@ body{
 }
 .responsive-col {
     display: table-cell;
-    background-color: $content-background;
     border: 2px solid;
     border-color: $frame-border;
     padding: 0.5em;
 }
 .right-sidebar{
     width:25%;
+    background-color: $content-background;
 } 
 .left-sidebar{
     width:25%;
+    background-color: $content-background;
 }
 .responsive-content {
     width:50%;
+    background-color: $content-background;
 }
 
 @media all and (max-width: $responsive-width) {
@@ -319,6 +308,12 @@ body{
     .responsive-content {
         width:100%;
     }
+    .contact-div{
+	    width:100%;
+	} 
+	.sitemap-div{
+	    width:100%;
+	}
 }
 
 /*End css for responsive columns with same heigth*/
