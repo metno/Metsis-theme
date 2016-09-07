@@ -43,6 +43,11 @@ p {
     margin-left: 0;
     margin-right: 0;
 }
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, p:first-child {
+    margin-top: 0em;
+}
+
 h1 {
     display: block;
     font-size: 2em;
