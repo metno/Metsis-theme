@@ -10,15 +10,11 @@
             </div>
             <div class="intra-search-div">
               <div class="div-intranet">
-                <h1>
                     <a href="#" rel="intranet"><?php print t('Intranet'); ?></a>
-                </h1>
               </div>
               <div class="h-gutter"></div>
               <div class="div-search">
-                <h1 class="search">
-                    <?php print render($page['search']); ?>
-                </h1>
+                  <?php print render($page['search']); ?>
               </div>
             </div>
             <?php print render($page['branding']); ?>
