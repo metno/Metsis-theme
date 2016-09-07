@@ -238,10 +238,13 @@ body{
 
 .contact-div{
     width:30%;
+    color: $footer-font-color;
 } 
 .sitemap-div{
     width:70%;
+    color: $footer-font-color;
 }
+
 /*end responsive footer*/
 
 /*Start css for responsive columns with same heigth*/
@@ -263,14 +266,17 @@ body{
 .right-sidebar{
     width:25%;
     background-color: $content-background;
+    color: $content-font-color;
 } 
 .left-sidebar{
     width:25%;
     background-color: $content-background;
+    color: $content-font-color;
 }
 .responsive-content {
     width:50%;
     background-color: $content-background;
+    color: $content-font-color;
 }
 
 @media all and (max-width: $responsive-width) {
