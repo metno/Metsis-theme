@@ -28,7 +28,11 @@
     border-color: $frame-border;
     padding: 0.5em;
 }
-.right-sidebar .left-sidebar{
+.right-sidebar{
+    width:25%;
+} 
+.left-sidebar{
+    width:25%;
 }
 .content {
     width:50%;
