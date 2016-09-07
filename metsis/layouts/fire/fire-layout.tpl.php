@@ -68,8 +68,6 @@
 	        	<div class="responsive-col contact-div">
 	            	<?php print render($page['contactinfo']); ?>
 	            </div>
-	        </div>
-	        <div class="responsive-row">
 	            <div id="sitemap" class="responsive-col sitemap-div">
 	                <?php print render($page['sitemap']); ?>
 	            </div>
